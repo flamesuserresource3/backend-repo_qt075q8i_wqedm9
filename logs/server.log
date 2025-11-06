@@ -1,7 +1,12 @@
 INFO:     Will watch for changes in these directories: ['/home/workspace']
 INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
-INFO:     Started reloader process [254] using StatReload
-INFO:     Started server process [256]
+INFO:     Started reloader process [331] using StatReload
+INFO:     Started server process [333]
 INFO:     Waiting for application startup.
 INFO:     Application startup complete.
-INFO:     172.20.0.1:60936 - "HEAD / HTTP/1.1" 405 Method Not Allowed
+INFO:     172.20.0.1:33626 - "HEAD / HTTP/1.1" 404 Not Found
+INFO:     172.20.0.1:33640 - "GET /api/tiktok?url=https%3A%2F%2Fvt.tiktok.com%2FZSDk2CP2R%2F HTTP/1.1" 200 OK
+INFO:     172.20.0.1:33640 - "GET /api/download?url=https%3A%2F%2Fv45-coin.tiktokcdn.com%2F5ea2ac622519e3322b6fb7023cd08e0a%2F690c6fe8%2Fvideo%2Ftos%2Falisg%2Ftos-alisg-pve-0037%2FosEKYqzA1JcY24FWBAIhqqihJEQAbwf7irBUPL%2F%3Fa%3D0%26bti%3DOUBzOTg7QGo6OjZAL3AjLTAzYCMxNDNg%26ch%3D0%26cr%3D13%26dr%3D0%26er%3D0%26lr%3Dall%26net%3D0%26cd%3D0%257C0%257C0%257C%26cv%3D1%26br%3D4940%26bt%3D2470%26cs%3D0%26ds%3D6%26ft%3Dn-7jK8VlHwqERf.dJz6AvEa8ZcAoFDxFNLrzfMURXmoag3%26mime_type%3Dvideo_mp4%26qs%3D0%26rc%3DZmVoNjZmZDtpaWk4Mzs3OEBpamRoNnU5cnZkdzMzODgzNEAvXzZgLzNgNmExXi8wYjQuYSMvMG9gMmRjbF9gLS1kLzFzcw%253D%253D%26vvpl%3D1%26l%3D20251106115226ADCB132F2455D55D8ADE%26btag%3De000b5000&filename=nhachaymoingaydouyinmusiccoversnhactrungquocxuhuongbardj-dj-2024.mp4 HTTP/1.1" 404 Not Found
+INFO:     172.20.0.1:44946 - "GET /api/stream?url=https%3A%2F%2Fv45-coin.tiktokcdn.com%2F5ea2ac622519e3322b6fb7023cd08e0a%2F690c6fe8%2Fvideo%2Ftos%2Falisg%2Ftos-alisg-pve-0037%2FosEKYqzA1JcY24FWBAIhqqihJEQAbwf7irBUPL%2F%3Fa%3D0%26bti%3DOUBzOTg7QGo6OjZAL3AjLTAzYCMxNDNg%26ch%3D0%26cr%3D13%26dr%3D0%26er%3D0%26lr%3Dall%26net%3D0%26cd%3D0%257C0%257C0%257C%26cv%3D1%26br%3D4940%26bt%3D2470%26cs%3D0%26ds%3D6%26ft%3Dn-7jK8VlHwqERf.dJz6AvEa8ZcAoFDxFNLrzfMURXmoag3%26mime_type%3Dvideo_mp4%26qs%3D0%26rc%3DZmVoNjZmZDtpaWk4Mzs3OEBpamRoNnU5cnZkdzMzODgzNEAvXzZgLzNgNmExXi8wYjQuYSMvMG9gMmRjbF9gLS1kLzFzcw%253D%253D%26vvpl%3D1%26l%3D20251106115226ADCB132F2455D55D8ADE%26btag%3De000b5000 HTTP/1.1" 404 Not Found
+INFO:     172.20.0.1:46020 - "GET /api/tiktok?url=https%3A%2F%2Fvt.tiktok.com%2FZSDk2CP2R%2F HTTP/1.1" 200 OK
+INFO:     172.20.0.1:46024 - "GET /api/stream?url=https%3A%2F%2Fv16-coin.tiktokcdn.com%2Fe612ff83223ab4b7628538c06b99cdb9%2F690c6ffd%2Fvideo%2Ftos%2Falisg%2Ftos-alisg-pve-0037%2FosEKYqzA1JcY24FWBAIhqqihJEQAbwf7irBUPL%2F%3Fa%3D0%26bti%3DOUBzOTg7QGo6OjZAL3AjLTAzYCMxNDNg%26ch%3D0%26cr%3D13%26dr%3D0%26er%3D0%26lr%3Dall%26net%3D0%26cd%3D0%257C0%257C0%257C%26cv%3D1%26br%3D4940%26bt%3D2470%26cs%3D0%26ds%3D6%26ft%3Dgk-cAE2YojQVQwURjO0pr.CPsyNGZcAmF~eE5H6KJE%26mime_type%3Dvideo_mp4%26qs%3D0%26rc%3DZmVoNjZmZDtpaWk4Mzs3OEBpamRoNnU5cnZkdzMzODgzNEAvXzZgLzNgNmExXi8wYjQuYSMvMG9gMmRjbF9gLS1kLzFzcw%253D%253D%26vvpl%3D1%26l%3D2025110611524768ED047831A1495C22DA%26btag%3De000b0000 HTTP/1.1" 404 Not Found
